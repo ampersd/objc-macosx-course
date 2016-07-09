@@ -1,0 +1,15 @@
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "26w-XD-QG2"; */
+"26w-XD-QG2.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Add"; ObjectID = "BjI-f3-fv3"; */
+"BjI-f3-fv3.title" = "Add";
+
+/* Class = "NSButtonCell"; title = "Remove"; ObjectID = "LnB-bx-gCF"; */
+"LnB-bx-gCF.title" = "Remove";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "uTJ-UP-gFW"; */
+"uTJ-UP-gFW.title" = "Text Cell";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "xOd-HO-29H"; */
+"xOd-HO-29H.title" = "Window";

@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F6F21D71D28540B00DE8036 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F21D61D28540B00DE8036 /* AppDelegate.m */; };
+		5F6F21DA1D28540B00DE8036 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F21D91D28540B00DE8036 /* main.m */; };
+		5F6F21DC1D28540B00DE8036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6F21DB1D28540B00DE8036 /* Assets.xcassets */; };
+		5F6F21DF1D28540B00DE8036 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F6F21DD1D28540B00DE8036 /* MainMenu.xib */; };
+		5F6F21EA1D28540B00DE8036 /* TemperatureBinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F21E91D28540B00DE8036 /* TemperatureBinderTests.m */; };
+		5F6F21F51D28540B00DE8036 /* TemperatureBinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F21F41D28540B00DE8036 /* TemperatureBinderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F6F21E61D28540B00DE8036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F6F21CA1D28540B00DE8036 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F6F21D11D28540B00DE8036;
+			remoteInfo = TemperatureBinder;
+		};
+		5F6F21F11D28540B00DE8036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F6F21CA1D28540B00DE8036 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F6F21D11D28540B00DE8036;
+			remoteInfo = TemperatureBinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F6F21D21D28540B00DE8036 /* TemperatureBinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureBinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6F21D51D28540B00DE8036 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F6F21D61D28540B00DE8036 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F6F21D91D28540B00DE8036 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F6F21DB1D28540B00DE8036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F6F21DE1D28540B00DE8036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5F6F21E01D28540B00DE8036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6F21E51D28540B00DE8036 /* TemperatureBinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperatureBinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6F21E91D28540B00DE8036 /* TemperatureBinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureBinderTests.m; sourceTree = "<group>"; };
+		5F6F21EB1D28540B00DE8036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6F21F01D28540B00DE8036 /* TemperatureBinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperatureBinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6F21F41D28540B00DE8036 /* TemperatureBinderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureBinderUITests.m; sourceTree = "<group>"; };
+		5F6F21F61D28540B00DE8036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F6F21CF1D28540B00DE8036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6F21E21D28540B00DE8036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6F21ED1D28540B00DE8036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F6F21C91D28540B00DE8036 = {
+			isa = PBXGroup;
+			children = (
+				5F6F21D41D28540B00DE8036 /* TemperatureBinder */,
+				5F6F21E81D28540B00DE8036 /* TemperatureBinderTests */,
+				5F6F21F31D28540B00DE8036 /* TemperatureBinderUITests */,
+				5F6F21D31D28540B00DE8036 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F6F21D31D28540B00DE8036 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F6F21D21D28540B00DE8036 /* TemperatureBinder.app */,
+				5F6F21E51D28540B00DE8036 /* TemperatureBinderTests.xctest */,
+				5F6F21F01D28540B00DE8036 /* TemperatureBinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F6F21D41D28540B00DE8036 /* TemperatureBinder */ = {
+			isa = PBXGroup;
+			children = (
+				5F6F21D51D28540B00DE8036 /* AppDelegate.h */,
+				5F6F21D61D28540B00DE8036 /* AppDelegate.m */,
+				5F6F21DB1D28540B00DE8036 /* Assets.xcassets */,
+				5F6F21DD1D28540B00DE8036 /* MainMenu.xib */,
+				5F6F21E01D28540B00DE8036 /* Info.plist */,
+				5F6F21D81D28540B00DE8036 /* Supporting Files */,
+			);
+			path = TemperatureBinder;
+			sourceTree = "<group>";
+		};
+		5F6F21D81D28540B00DE8036 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F6F21D91D28540B00DE8036 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F6F21E81D28540B00DE8036 /* TemperatureBinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F6F21E91D28540B00DE8036 /* TemperatureBinderTests.m */,
+				5F6F21EB1D28540B00DE8036 /* Info.plist */,
+			);
+			path = TemperatureBinderTests;
+			sourceTree = "<group>";
+		};
+		5F6F21F31D28540B00DE8036 /* TemperatureBinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F6F21F41D28540B00DE8036 /* TemperatureBinderUITests.m */,
+				5F6F21F61D28540B00DE8036 /* Info.plist */,
+			);
+			path = TemperatureBinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F6F21D11D28540B00DE8036 /* TemperatureBinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6F21F91D28540B00DE8036 /* Build configuration list for PBXNativeTarget "TemperatureBinder" */;
+			buildPhases = (
+				5F6F21CE1D28540B00DE8036 /* Sources */,
+				5F6F21CF1D28540B00DE8036 /* Frameworks */,
+				5F6F21D01D28540B00DE8036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemperatureBinder;
+			productName = TemperatureBinder;
+			productReference = 5F6F21D21D28540B00DE8036 /* TemperatureBinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F6F21E41D28540B00DE8036 /* TemperatureBinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6F21FC1D28540B00DE8036 /* Build configuration list for PBXNativeTarget "TemperatureBinderTests" */;
+			buildPhases = (
+				5F6F21E11D28540B00DE8036 /* Sources */,
+				5F6F21E21D28540B00DE8036 /* Frameworks */,
+				5F6F21E31D28540B00DE8036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F6F21E71D28540B00DE8036 /* PBXTargetDependency */,
+			);
+			name = TemperatureBinderTests;
+			productName = TemperatureBinderTests;
+			productReference = 5F6F21E51D28540B00DE8036 /* TemperatureBinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F6F21EF1D28540B00DE8036 /* TemperatureBinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6F21FF1D28540B00DE8036 /* Build configuration list for PBXNativeTarget "TemperatureBinderUITests" */;
+			buildPhases = (
+				5F6F21EC1D28540B00DE8036 /* Sources */,
+				5F6F21ED1D28540B00DE8036 /* Frameworks */,
+				5F6F21EE1D28540B00DE8036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F6F21F21D28540B00DE8036 /* PBXTargetDependency */,
+			);
+			name = TemperatureBinderUITests;
+			productName = TemperatureBinderUITests;
+			productReference = 5F6F21F01D28540B00DE8036 /* TemperatureBinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F6F21CA1D28540B00DE8036 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Anton Korepanov";
+				TargetAttributes = {
+					5F6F21D11D28540B00DE8036 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5F6F21E41D28540B00DE8036 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5F6F21D11D28540B00DE8036;
+					};
+					5F6F21EF1D28540B00DE8036 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5F6F21D11D28540B00DE8036;
+					};
+				};
+			};
+			buildConfigurationList = 5F6F21CD1D28540B00DE8036 /* Build configuration list for PBXProject "TemperatureBinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F6F21C91D28540B00DE8036;
+			productRefGroup = 5F6F21D31D28540B00DE8036 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F6F21D11D28540B00DE8036 /* TemperatureBinder */,
+				5F6F21E41D28540B00DE8036 /* TemperatureBinderTests */,
+				5F6F21EF1D28540B00DE8036 /* TemperatureBinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F6F21D01D28540B00DE8036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6F21DC1D28540B00DE8036 /* Assets.xcassets in Resources */,
+				5F6F21DF1D28540B00DE8036 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6F21E31D28540B00DE8036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6F21EE1D28540B00DE8036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F6F21CE1D28540B00DE8036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6F21DA1D28540B00DE8036 /* main.m in Sources */,
+				5F6F21D71D28540B00DE8036 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6F21E11D28540B00DE8036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6F21EA1D28540B00DE8036 /* TemperatureBinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6F21EC1D28540B00DE8036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6F21F51D28540B00DE8036 /* TemperatureBinderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F6F21E71D28540B00DE8036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F6F21D11D28540B00DE8036 /* TemperatureBinder */;
+			targetProxy = 5F6F21E61D28540B00DE8036 /* PBXContainerItemProxy */;
+		};
+		5F6F21F21D28540B00DE8036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F6F21D11D28540B00DE8036 /* TemperatureBinder */;
+			targetProxy = 5F6F21F11D28540B00DE8036 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F6F21DD1D28540B00DE8036 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6F21DE1D28540B00DE8036 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F6F21F71D28540B00DE8036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5F6F21F81D28540B00DE8036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5F6F21FA1D28540B00DE8036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TemperatureBinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Homie.TemperatureBinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F6F21FB1D28540B00DE8036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TemperatureBinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Homie.TemperatureBinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F6F21FD1D28540B00DE8036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TemperatureBinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Homie.TemperatureBinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TemperatureBinder.app/Contents/MacOS/TemperatureBinder";
+			};
+			name = Debug;
+		};
+		5F6F21FE1D28540B00DE8036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TemperatureBinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Homie.TemperatureBinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TemperatureBinder.app/Contents/MacOS/TemperatureBinder";
+			};
+			name = Release;
+		};
+		5F6F22001D28540B00DE8036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TemperatureBinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Homie.TemperatureBinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TemperatureBinder;
+			};
+			name = Debug;
+		};
+		5F6F22011D28540B00DE8036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TemperatureBinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Homie.TemperatureBinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TemperatureBinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F6F21CD1D28540B00DE8036 /* Build configuration list for PBXProject "TemperatureBinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6F21F71D28540B00DE8036 /* Debug */,
+				5F6F21F81D28540B00DE8036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6F21F91D28540B00DE8036 /* Build configuration list for PBXNativeTarget "TemperatureBinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6F21FA1D28540B00DE8036 /* Debug */,
+				5F6F21FB1D28540B00DE8036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F6F21FC1D28540B00DE8036 /* Build configuration list for PBXNativeTarget "TemperatureBinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6F21FD1D28540B00DE8036 /* Debug */,
+				5F6F21FE1D28540B00DE8036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F6F21FF1D28540B00DE8036 /* Build configuration list for PBXNativeTarget "TemperatureBinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6F22001D28540B00DE8036 /* Debug */,
+				5F6F22011D28540B00DE8036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F6F21CA1D28540B00DE8036 /* Project object */;
+}

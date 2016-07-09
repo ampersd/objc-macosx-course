@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F49B1D91D2E3CF600CC8EDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F49B1D81D2E3CF600CC8EDB /* AppDelegate.m */; };
+		5F49B1DC1D2E3CF600CC8EDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F49B1DB1D2E3CF600CC8EDB /* main.m */; };
+		5F49B1DE1D2E3CF600CC8EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F49B1DD1D2E3CF600CC8EDB /* Assets.xcassets */; };
+		5F49B1E11D2E3CF600CC8EDB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F49B1DF1D2E3CF600CC8EDB /* MainMenu.xib */; };
+		5F49B1EA1D2E3DEC00CC8EDB /* BigLetterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F49B1E91D2E3DEC00CC8EDB /* BigLetterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F49B1D41D2E3CF600CC8EDB /* KeyBorat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyBorat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F49B1D71D2E3CF600CC8EDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F49B1D81D2E3CF600CC8EDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F49B1DB1D2E3CF600CC8EDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F49B1DD1D2E3CF600CC8EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F49B1E01D2E3CF600CC8EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5F49B1E21D2E3CF600CC8EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F49B1E81D2E3DEC00CC8EDB /* BigLetterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigLetterView.h; sourceTree = "<group>"; };
+		5F49B1E91D2E3DEC00CC8EDB /* BigLetterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigLetterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F49B1D11D2E3CF600CC8EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F49B1CB1D2E3CF600CC8EDB = {
+			isa = PBXGroup;
+			children = (
+				5F49B1E81D2E3DEC00CC8EDB /* BigLetterView.h */,
+				5F49B1E91D2E3DEC00CC8EDB /* BigLetterView.m */,
+				5F49B1D61D2E3CF600CC8EDB /* KeyBorat */,
+				5F49B1D51D2E3CF600CC8EDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F49B1D51D2E3CF600CC8EDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F49B1D41D2E3CF600CC8EDB /* KeyBorat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F49B1D61D2E3CF600CC8EDB /* KeyBorat */ = {
+			isa = PBXGroup;
+			children = (
+				5F49B1D71D2E3CF600CC8EDB /* AppDelegate.h */,
+				5F49B1D81D2E3CF600CC8EDB /* AppDelegate.m */,
+				5F49B1DD1D2E3CF600CC8EDB /* Assets.xcassets */,
+				5F49B1DF1D2E3CF600CC8EDB /* MainMenu.xib */,
+				5F49B1E21D2E3CF600CC8EDB /* Info.plist */,
+				5F49B1DA1D2E3CF600CC8EDB /* Supporting Files */,
+			);
+			path = KeyBorat;
+			sourceTree = "<group>";
+		};
+		5F49B1DA1D2E3CF600CC8EDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F49B1DB1D2E3CF600CC8EDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F49B1D31D2E3CF600CC8EDB /* KeyBorat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F49B1E51D2E3CF600CC8EDB /* Build configuration list for PBXNativeTarget "KeyBorat" */;
+			buildPhases = (
+				5F49B1D01D2E3CF600CC8EDB /* Sources */,
+				5F49B1D11D2E3CF600CC8EDB /* Frameworks */,
+				5F49B1D21D2E3CF600CC8EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyBorat;
+			productName = KeyBorat;
+			productReference = 5F49B1D41D2E3CF600CC8EDB /* KeyBorat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F49B1CC1D2E3CF600CC8EDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Anton Korepanov";
+				TargetAttributes = {
+					5F49B1D31D2E3CF600CC8EDB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5F49B1CF1D2E3CF600CC8EDB /* Build configuration list for PBXProject "KeyBorat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F49B1CB1D2E3CF600CC8EDB;
+			productRefGroup = 5F49B1D51D2E3CF600CC8EDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F49B1D31D2E3CF600CC8EDB /* KeyBorat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F49B1D21D2E3CF600CC8EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F49B1DE1D2E3CF600CC8EDB /* Assets.xcassets in Resources */,
+				5F49B1E11D2E3CF600CC8EDB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F49B1D01D2E3CF600CC8EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F49B1DC1D2E3CF600CC8EDB /* main.m in Sources */,
+				5F49B1EA1D2E3DEC00CC8EDB /* BigLetterView.m in Sources */,
+				5F49B1D91D2E3CF600CC8EDB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F49B1DF1D2E3CF600CC8EDB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F49B1E01D2E3CF600CC8EDB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F49B1E31D2E3CF600CC8EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5F49B1E41D2E3CF600CC8EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5F49B1E61D2E3CF600CC8EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyBorat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Homie.KeyBorat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F49B1E71D2E3CF600CC8EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyBorat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Homie.KeyBorat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F49B1CF1D2E3CF600CC8EDB /* Build configuration list for PBXProject "KeyBorat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F49B1E31D2E3CF600CC8EDB /* Debug */,
+				5F49B1E41D2E3CF600CC8EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F49B1E51D2E3CF600CC8EDB /* Build configuration list for PBXNativeTarget "KeyBorat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F49B1E61D2E3CF600CC8EDB /* Debug */,
+				5F49B1E71D2E3CF600CC8EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F49B1CC1D2E3CF600CC8EDB /* Project object */;
+}

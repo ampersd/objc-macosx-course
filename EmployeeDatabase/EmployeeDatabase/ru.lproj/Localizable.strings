@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  EmployeeDatabase
+
+  Created by Tony Korepanov on 07.07.16.
+  Copyright © 2016 Homie. All rights reserved.
+*/
+
+"REMOVE_MSG" = "Вы на самом деле хотите удалить этих людей?";
+"REMOVE_INF" = "%ld людей будет удалено.";
+"REMOVE" = "Удалить";
+"CANCEL" = "Отмена";
